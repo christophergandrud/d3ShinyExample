@@ -19,10 +19,11 @@ shinyServer(function(input, output) {
 
     output$networkPlot <- renderPrint({
         d3ForceNetwork(Nodes = MisNodes, 
-            Links = MisLinks,  
-            Source = "source", Target = "target", 
-            Value = "value", NodeID = "name", 
-            Group = "group", width = 550, height = 400, 
-            opacity = input$slider, standAlone = FALSE)
+                        Links = MisLinks,  
+                        Source = "source", Target = "target", 
+                        Value = "value", NodeID = "name", 
+                        Group = "group", width = 500, height = 500, 
+                        opacity = input$slider, standAlone = FALSE,
+                        parentElement = '#networkPlot')
     })
 })

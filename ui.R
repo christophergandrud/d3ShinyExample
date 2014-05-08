@@ -25,7 +25,6 @@ shinyUI(fluidPage(
 
     # Show network graph
     mainPanel(
-        h2('This is where the network plot should be.'),
         htmlOutput('networkPlot')
     )
   )
