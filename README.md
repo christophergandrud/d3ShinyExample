@@ -1,7 +1,7 @@
 d3Network + Shiny Example
 ==============
 
-**Under Development** 
+**Requires d3Network version >= 0.5**
 
 An example of how to use the R package d3Network with RStudio's Shiny web apps.
 
