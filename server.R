@@ -22,7 +22,7 @@ shinyServer(function(input, output) {
                         Links = MisLinks,  
                         Source = "source", Target = "target", 
                         Value = "value", NodeID = "name", 
-                        Group = "group", width = 500, height = 500, 
+                        Group = "group", width = 400, height = 500, 
                         opacity = input$slider, standAlone = FALSE,
                         parentElement = '#networkPlot')
     })
