@@ -14,3 +14,7 @@ To run the example in R:
 ```{S}
 shiny::runGitHub('d3ShinyExample', 'christophergandrud')
 ```
+
+When run you should get something that looks like this:
+
+<img src="d3Network_Shiny_Example.png" alt="shiny example"></img>
